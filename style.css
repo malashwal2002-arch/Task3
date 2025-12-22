@@ -1,0 +1,178 @@
+h1,
+h3 {
+    font-family: Tinos;
+    color: black;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+span {
+    font-family: Poiret One;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+body {
+    margin-inline: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 20px 25px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Tinos;
+    font-weight: bold;
+    padding-inline: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 200px;
+}
+
+.slider {
+    width: 100%;
+    /* background-image: url("./images/MainImage.png"); */
+    position: relative;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.slider-text {
+    position: absolute;
+    bottom: 40px;
+    inset-inline-start: 50px;
+}
+
+.slider-text span {
+    color: white;
+    font-size: 20px;
+}
+
+.SERVICES {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 350px;
+}
+
+.lasts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+.lasts div {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card i {
+    font-size: 65px;
+}
+
+@media (max-width: 1150px) {
+    body {
+        margin-inline: 34px;
+    }
+
+    a {
+        font-size: 10px;
+        padding-inline: 5px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .slider-text span {
+        font-size: 14px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .SERVICES {
+        margin: 15px 100px;
+    }
+
+    .lasts {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-inline: 70px;
+    }
+
+    .card i {
+    font-size: 45px;
+}
+}
+
+@media (max-width: 500px) {
+    body {
+        margin-inline: 5px;
+    }
+
+    a {
+        font-size: 10px;
+        padding-inline: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .slider-text span {
+        font-size: 11px;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    .slider-text {
+        bottom: 15px;
+
+        inset-inline-start: 25px;
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SERVICES {
+        margin: 10px 50px;
+    }
+}
