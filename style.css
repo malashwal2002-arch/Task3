@@ -115,6 +115,22 @@
       --swiper-navigation-size: 4vw;
   }
 
+  .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color: #000;
+      opacity: 1;
+      background: #5e5d5d;
+  }
+
+  .swiper-pagination-bullet-active {
+      color: #fff;
+      background: #0b76e9;
+  }
+
   @media (max-width: 1150px) {
       body {
           margin-inline: 34px;
