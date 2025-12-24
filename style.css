@@ -9,7 +9,6 @@
       color: white;
   }
 
-  span,
   .service-description {
       font-family: Poiret One;
       color: black;
@@ -134,11 +133,12 @@
           font-size: 18px;
       }
 
-      .slider-text span {
+
+      .slider-text .paner-description {
           font-size: 14px;
       }
 
-      span {
+      .service-description {
           font-size: 16px;
       }
 
@@ -174,14 +174,15 @@
       }
 
       h3 {
-          font-size: 15px;
+          font-size: 13px;
       }
 
-      .slider-text span {
+
+      .slider-text .paner-description {
           font-size: 11px;
       }
 
-      span {
+      .service-description {
           font-size: 14px;
       }
 
